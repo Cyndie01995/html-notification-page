@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notification Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="notification-container">
+        <header>
+          <div class="notificationheader">
+            <h3>Notification</h3>
+            <span id="num-noti">3</span>
+          </div>
+          <p id="mark-as-read">Mark as All read</p>
+        </header>
+        <main>
+          <div class="notificationcard">
+            <img class="notification-img" src="./avatar-mark-webber.webp" alt="">
+            <div style="display:flex; flex-direction: column; gap: 5px;">
+                <div class="notif-description"> 
+                    <div>
+                        <span class="user-name">Mark webber</span> reacted to your recent post <span style="font-weight:600; color:gray;">My first tournament today!</span>
+                    </div>
+                    <div class="notif-dot"></div>
+                </div>
+                <p id="notif-time">1 month ago</p>
+            </div>
+          </div>
+          <div class="notificationcard">
+            <img class="notification-img" src="./avatar-angela-gray.webp" alt="">
+            <div style="display:flex; flex-direction: column; gap: 5px;">
+                <div class="notif-description">
+                    <div> 
+                        <span class="user-name">Angela Gray</span> followed you
+                    </div>
+                     <div class="notif-dot"></div>
+                    </div>
+                <p id="notif-time">1 month ago</p>
+            </div>
+          </div>
+          <div class="notificationcard">
+            <img class="notification-img" src="./avatar-jacob-thompson.webp" alt="">
+            <div style="display:flex; flex-direction: column; gap: 5px;">
+                <div class="notif-description">
+                    <div><span class="user-name">Jacob Thompson</span> has joined your group Chess club</div>
+                    <div class="notif-dot"></div>
+                </div>
+                <p id="notif-time">1 month ago</p>
+            </div>
+          </div>
+          <div>
+            <div class="notificationcard">
+                <img class= "notification-img" src="./avatar-rizky-hasanuddin.webp" alt="">
+                <div style="display:flex; flex-direction: column; gap: 5px;">
+                <div class="notif-description">
+                    <div><span class="user-name">Rizky Hasanuddin</span> sent you a private message</div> 
+                </div> 
+                <p id="notif-time">5 days ago</p>
+            </div>
+          </div>
+          <!-- <div class=""> -->
+            <div class="message-list">
+                <textarea name="" 
+                id="" cols="60" rows="5">Hello, thanks for setting up the chess club. i've been a member for a few weeks now and i'm already having lots of fun and improving my game.</textarea>
+            <!-- </div> -->
+        </div>
+        <div>
+            <div class="notification">
+                <img class= "notification-img" src="./avatar-kimberly-smith.webp" alt="">
+                <img class= "notification-img" src="./image-chess.webp" alt="">
+                <div style="display:flex; flex-direction: column; gap: 5px;">
+                <div class="notif-description">
+                    <div><span class="user-name">Kimberly Smith</span> commented on your picture</div> 
+                </div> 
+                <p id="notif-time">1 week ago</p>
+            </div>
+          </div>
+          <div>
+            <div class="notification">
+                <img class= "notification-img" src="./avatar-nathan-peterson.webp" alt="">
+                <div style="display:flex; flex-direction: column; gap: 5px;">
+                <div class="notif-description">
+                    <div><span class="user-name">Nathan Peterson</span> reacted to your recent post <span class="user-name-details">5 end-game strategies to increase your win rate</span></div> 
+                </div> 
+                <p id="notif-time">2 week ago</p>
+            </div>
+          </div>
+          <div>
+            <div class="notification">
+                <img class= "notification-img" src="./avatar-anna-kim.webp" alt="">
+                <div style="display:flex; flex-direction: column; gap: 5px;">
+                <div class="notif-description">
+                    <div><span class="user-name">Anna Kim</span> left the group <span class="user-name-detail">Chess Club</span></div> 
+                </div> 
+                <p id="notif-time">1 week ago</p>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
